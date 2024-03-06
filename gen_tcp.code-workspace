@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "native/gen_tcp_native"
+		}
+	],
+	"settings": {}
+}

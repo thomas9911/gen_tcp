@@ -1,0 +1,20 @@
+[package]
+name = "gen_tcp_native"
+version = "0.1.0"
+authors = []
+edition = "2021"
+
+[lib]
+name = "gen_tcp_native"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+handlebars = "5.1.0"
+http-body-util = "0.1.0"
+hyper = { version = "1", features = ["full"] }
+hyper-util = { version = "0.1.3", features = ["full"] }
+matchit = "0.7.3"
+rustler = "0.31.0"
+smol = "2.0.0"
+smol-hyper = "0.1.1"
